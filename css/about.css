@@ -1,3 +1,66 @@
 body{
     background-color: #E5E5E5;
 }
+.aboutSec{
+    margin-top: 200px;
+}
+.textImgWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textImg{
+    width: 490px;
+}
+.slideBanner{
+    margin-top: 100px;
+}
+
+
+
+.simply-scroll-container { 
+	position: relative;
+}
+
+.simply-scroll-clip { 
+	position: relative;
+	overflow: hidden;
+}
+
+.simply-scroll-list { 
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+	
+.simply-scroll-list li img {
+	border: none;
+	display: block;
+}
+
+/* Container DIV */
+.simply-scroll { 
+	/* width: 576px;
+	height: 200px;
+	margin-bottom: 1em; */
+}
+
+/* Clip DIV */
+.simply-scroll .simply-scroll-clip {
+	/* width: 576px;
+	height: 200px; */
+}
+	
+/* Explicitly set height/width of each list item */	
+.simply-scroll .simply-scroll-list li {
+	float: left; /* Horizontal scroll only */
+	/* width: 290px;
+	height: 200px; */
+}
