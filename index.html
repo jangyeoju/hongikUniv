@@ -23,12 +23,14 @@
         $('#menuIcon').click(function(){
             $('.dropDownMenu').slideToggle(300, 'linear');
         })
-        var autoplayVideoInterval = setInterval("autoplayVideo()",200);
-
+        autoplayVideo();
+        
     })
+    var autoplayVideoInterval = setInterval("autoplayVideo()",200);
     function autoplayVideo()
     {
-    var promise = document.querySelector('video').play();
+        console.log("ddd");
+        var promise = document.querySelector('video').play();
         if (promise !== undefined)
         {
         promise.then(function (_)
