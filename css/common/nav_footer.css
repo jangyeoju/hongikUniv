@@ -10,7 +10,7 @@
 }
 .grdiant{
     background: rgb(241,255,73);
-    background: linear-gradient(180deg, rgba(241,255,73,1) 0%, rgba(229,229,229,1) 50%);
+    background: linear-gradient(180deg, rgba(241,255,73,1) 0%, rgba(239,239,239,1) 50%); 
 }
 .container{
     width: 1440px;
@@ -69,12 +69,13 @@
     position: static;
 }
 .fill-color{
-    background-color: #E5E5E5;
+    background-color: #EFEFEF;
 }
 .footer h3{
     font-size: 14px;
     font-family: 'Inter Tight', sans-serif;
     color: #EE5046;
+    text-transform: uppercase;
 }
 .mobileNav{
     width: 100%;
@@ -143,6 +144,9 @@
 .companyIcon{
     width: 100px;
 }
+.text-logo h2 br{
+    display: none;
+}
 @media (max-width: 1440px) {
     .dp-flex-between{
         width: 90%;
@@ -207,7 +211,9 @@
     .footer h3{
         display: none;
     }
-
+    .text-logo h2{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 568px) {
@@ -216,6 +222,10 @@
     }
     .text-logo h2{
         font-size: 12px;
+        line-height: 16px;
+    }
+    .text-logo h2 br{
+        display: block;
     }
     .text-logo{
         margin-left: 10px;
