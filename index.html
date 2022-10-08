@@ -23,37 +23,21 @@
         $('#menuIcon').click(function(){
             $('.dropDownMenu').slideToggle(300, 'linear');
         })
-        autoplayVideo();
-        
     })
-    var autoplayVideoInterval = setInterval("autoplayVideo()",200);
-    function autoplayVideo()
-    {
-        console.log("ddd");
-        var promise = document.querySelector('video').play();
-        if (promise !== undefined)
-        {
-        promise.then(function (_)
-        {
-            // Autoplay started!
-            clearInterval(autoplayVideoInterval);
 
-        }).catch(function (error) {// Autoplay was prevented.
-            // Show a "Play" button so that user can start playback.
-        });
-        }
-    }
 </script>
 <body>
     <section class="mobileNav">
         <article class="mobileNavWrap1">
-            <div class="logo">
-                <img src="/img/star_red.svg">
-                <div class="text-logo">
-                    <h1>홍익목조형가구디자인제 2022</h1>
-                    <h2>woodworking & furniture design week 2022</h2>
+            <a href="/">
+                <div class="logo">
+                    <img src="/img/star_red.svg">
+                    <div class="text-logo">
+                        <h1>홍익목조형가구디자인제 2022</h1>
+                        <h2>WOODWORKING & FURNITURE DESIGN GRADUATION EXHIBITION 2022</h2>
+                    </div>
                 </div>
-            </div>
+            </a>
             <div id="menuIcon">
                <img src="/img/menuIcon.svg" width="25px">
             </div>
@@ -64,7 +48,7 @@
                     <li><a href="/index.html">HOME</a></li>
                     <li><a href="/about/index.html">ABOUT</a></li>
                     <li><a href="">DESIGNERS</a></li>
-                    <li><a href="">WORK</a></li>
+                    <li><a href="">WORKS</a></li>
                 </ul>
             </div>
         </article>
@@ -73,13 +57,15 @@
     <nav class="nav">
         <div class="container">
             <div class="dp-flex-between">
-                <div class="logo">
-                    <img src="/img/star_red.svg">
-                    <div class="text-logo">
-                        <h1>홍익목조형가구디자인제 2022</h1>
-                        <h2>woodworking & furniture design week 2022</h2>
+                <a href="/">
+                    <div class="logo">
+                        <img src="/img/star_red.svg">
+                        <div class="text-logo">
+                            <h1>홍익목조형가구디자인제 2022</h1>
+                            <h2>WOODWORKING & FURNITURE DESIGN<br/> GRADUATION EXHIBITION 2022</h2>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <ul class="menu-list">
                     <li><a href="/index.html">HOME</a></li>
                     <li><a href="/about/index.html">ABOUT</a></li>
@@ -91,9 +77,12 @@
     </nav>
         <section class="background">
             <div class="jb-box">
-                <video muted autoplay loop playsinline>
-                    <source src="/img/backgroundVideo.mp4" type="video/mp4">
-                </video>
+                <div class="videoBox">
+                     <!-- <video id="fullVideo" playsinline muted autoplay loop>
+                        <source src="/img/backgroundVideo.mp4" type="video/mp4" />
+                            "Your browser does not support HTML5 video."
+                    </video> -->
+                </div>
                 <div class="jb-text">
                     <img src="/img/text_w.svg" id="text">
                 </div>
@@ -102,9 +91,11 @@
         <div class="footer">
             <div class="container">
                 <div class="dp-flex-between">
-                    <div class="logoImg">
-                        <img src="/img/logo_red.svg" alt="로고이미지">
-                </div>
+                    <a href="/">
+                        <div class="logoImg">
+                            <img src="/img/logo_red.svg" alt="로고이미지">
+                        </div>
+                    </a>
                 <h3>
                     woodworking & furniture design week GRADUATE 2022
                 </h3>
@@ -117,5 +108,8 @@
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById('fullVideo').play();
+    </script>
 </body>
 </html>
