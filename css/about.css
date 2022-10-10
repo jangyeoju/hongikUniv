@@ -26,7 +26,7 @@ body{
 .textImgWrap h3{
 	font-size: 16px;
 	line-height: 24px;
-	font-family: 'Pretendard-Regulr';
+	font-family: 'Pretendard-SBold';
     color: #EE5046;
 }
 .textImg{
@@ -70,7 +70,7 @@ body{
 .title h4{
 	font-size: 16px;
 	color: #EE5046;
-	font-family: 'Pretendard-Thin';
+	font-family: 'Pretendard-Regulr';
 	margin-bottom: 10px;
 }
 .subTitle h3{
@@ -79,6 +79,7 @@ body{
 	color: #3b3b3b;
 	margin-bottom: 10px;
 	width: 300px;
+	line-height: 28px;
 }
 .subTitle{
 	margin-bottom: 20px;

@@ -18,17 +18,17 @@
 }
 .logo{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .text-logo h1{
     font-size: 25px;
     font-family: 'Pretendard-SBold';
     color: #EE5046;
-    line-height: 36px;
+    margin-bottom: 5px;
 }
 .text-logo h2{
     font-size: 20px;
-    font-family: 'Pretendard-Thin';
+    font-family: 'Pretendard-Regular';
     color: #EE5046;
 }
 .text-logo {
@@ -69,7 +69,7 @@
     position: static;
 }
 .fill-color{
-    background-color: #EFEFEF;
+    background-color: #EFEFEF !important;
 }
 .footer h3{
     font-size: 14px;
