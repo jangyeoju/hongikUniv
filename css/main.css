@@ -8,7 +8,7 @@ body{
 }
 .jb-box { width: 100%; height: 100vh; overflow: hidden; position: relative; }
 .videoBox{
-    background-image: url(../img/background.gif);
+    background-image: url(../img/background-gif.gif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
