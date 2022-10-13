@@ -10,7 +10,6 @@
     <script src="../js/jquery.easing.1.3.js"></script>
     <script src="../js/jquery.simplyscroll.js"></script>
     <script src="../js/jquery.simplyscroll.min.js"></script>
-    <script src="../js/event.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
 
@@ -34,9 +33,11 @@
         })
     })
 </script>
+
+
 <body>
     <section class="mobileNav">
-        <article class="mobileNavWrap1  fill-color">
+        <article class="mobileNavWrap1 grdiant fill-color">
             <a href="/index.html">
                 <div class="logo">
                     <img src="/img/star_red.svg">
@@ -86,181 +87,285 @@
 
     <section class="designerSec">
         <div class="containerWrap2">
-            <div class="imgBox">
-                <img src="/img/profile/고재현.png" width="100%" id="img1">
-                <img src="/img/profile/권혜린.png" width="100%" id="img2">
-                <img src="/img/profile/김나현.png" width="100%" id="img3">
-                <img src="/img/profile/김도현.png" width="100%" id="img4">
-                <img src="/img/profile/김연리.png" width="100%" id="img5">
-                <img src="/img/profile/김지은.png" width="100%" id="img6">
-                <img src="/img/profile/김채림.png" width="100%" id="img7">
-                <img src="/img/profile/김태휴.png" width="100%" id="img8">
-                <img src="/img/profile/김홍순.png" width="100%" id="img9">
-                <img src="/img/profile/남승완.png" width="100%" id="img10">
-                <img src="/img/profile/노연수.png" width="100%" id="img11">
-                <img src="/img/profile/라연수.png" width="100%" id="img12">
-                <img src="/img/profile/류은하.png" width="100%" id="img13">
-                <img src="/img/profile/류현준.png" width="100%" id="img14">
-                <img src="/img/profile/문희서.png" width="100%" id="img15">
-                <img src="/img/profile/박미나.png" width="100%" id="img16">
-                <img src="/img/profile/박은하.png" width="100%" id="img17">
-                <img src="/img/profile/박재영.png" width="100%" id="img18">
-                <img src="/img/profile/백가은.png" width="100%" id="img19">
-                <img src="/img/profile/신다위.png" width="100%" id="img20">
-                <img src="/img/profile/안용찬.png" width="100%" id="img21">
-                <img src="/img/profile/양시연.png" width="100%" id="img22">
-                <img src="/img/profile/유지원.png" width="100%" id="img23">
-                <img src="/img/profile/윤혜원.png" width="100%" id="img24">
-                <img src="/img/profile/이소명.png" width="100%" id="img25">
-                <img src="/img/profile/이소진.png" width="100%" id="img26">
-                <img src="/img/profile/이여경.png" width="100%" id="img27">
-                <img src="/img/profile/이연경.png" width="100%" id="img28">
-                <img src="/img/profile/이인규.png" width="100%" id="img29">
-                <img src="/img/profile/이정민.png" width="100%" id="img30">
-                <img src="/img/profile/이주영.png" width="100%" id="img31">
-                <img src="/img/profile/이찬휘.png" width="100%" id="img32">
-                <img src="/img/profile/이태림.png" width="100%" id="img33">
-                <img src="/img/profile/임동주.png" width="100%" id="img34">
-                <img src="/img/profile/임주희.png" width="100%" id="img35">
-                <img src="/img/profile/임희진.png" width="100%" id="img36">
-                <img src="/img/profile/장립신.png" width="100%" id="img37">
-                <img src="/img/profile/장서경.png" width="100%" id="img38">
-                <img src="/img/profile/장지원.png" width="100%" id="img39">
-                <img src="/img/profile/정다경.png" width="100%" id="img40">
-                <img src="/img/profile/정희정.png" width="100%" id="img41">
-                <img src="/img/profile/표서영.png" width="100%" id="img42">
-                
+            <div class="mobileImg">
+                <div class="imgBox2" id="hide">
+                    <img src="/img/profile/1_profile.png" id="designer_img">
+                </div>
+                <div class="moreBtnWrap">
+                    <h2>DESIGNERS</h2>
+                    <div class="moreBtn">    
+                        <a id="see_work_text" href="/detail/고재현/index.html" onclick="see()">작품 보기</a>
+                        <img src="/img/arrow_forward .svg" width="15px">
+                    </div>
+                </div>
             </div>
-            <div class="nameBox">
+            <div class="nameBox" id="desktop_name">
+                <h2>DESIGNERS</h2>
                 <ul class="nameBtnWrap">
-                <li id="name1">
+                <li id="1">
                     <a href="/detail/고재현/index.html">고재현</a>
                 </li>
-                <li id="name2">
-                    <a href="/detail/권혜린/index.html">권혜린</a>
-                </li>
-                <li id="name3">
-                    <a href="/detail/김나현/index.html">김나현</a>
-                </li>
-                <li id="name4">
-                    <a href="/detail/김도현/index.html">김도현</a>
-                </li>
-                <li id="name5">
-                    <a href="/detail/김연리/index.html">김연리</a>
-                </li>
-                <li id="name6">
-                    <a href="/detail/김성열/index.html">김성열</a>
-                </li>
-                <li id="name7">
-                    <a href="/detail/김지은/index.html">김지은</a>
-                </li>
-                <li id="name8">
-                    <a href="/detail/김채림/index.html">김채림</a>
-                </li>
-                <li id="name9">
-                    <a href="/detail/김태휴/index.html">김태휴</a>
-                </li>
-                <li id="name10">
-                    <a href="/detail/김홍순/index.html">김홍순</a>
-                </li>
-                <li id="name11">
-                    <a href="/detail/남승완/index.html">남승완</a>
-                </li>
-                <li id="name12">
+                <li id="2">
                     <a href="/detail/노연수/index.html">노연수</a>
                 </li>
-                <li id="name13">
-                    <a href="/detail/라연수/index.html">라연수</a>
-                </li>
-                <li id="name14">
-                    <a href="/detail/류은하/index.html">류은하</a>
-                </li>
-                <li id="name15">
-                    <a href="/detail/류현준/index.html">류현준</a>
-                </li>
-                <li id="name16">
-                    <a href="/detail/문희서/index.html">문희서</a>
-                </li>
-                <li id="name17">
-                    <a href="/detail/박미나/index.html">박미나</a>
-                </li>
-                <li id="name18">
-                    <a href="/detail/박은하/index.html">박은하</a>
-                </li>
-                <li id="name19">
-                    <a href="/detail/박재영/index.html">박재영</a>
-                </li>
-                <li id="name20">
-                    <a href="/detail/백가은/index.html">백가은</a>
-                </li>
-                <li id="name21">
-                    <a href="/detail/표서영/index.html">표서영</a>
-                </li>
-                <li id="name22">
-                    <a href="/detail/신다위/index.html">신다위</a>
-                </li>
-                <li id="name23">
-                    <a href="/detail/안용찬/index.html">안용찬</a>
-                </li>
-                <li id="name24">
+                <li id="3">
                     <a href="/detail/양시연/index.html">양시연</a>
                 </li>
-                <li id="name25">
-                    <a href="/detail/유지원/index.html">유지원</a>
-                </li>
-                <li id="name26">
-                    <a href="/detail/윤혜원/index.html">윤혜원</a>
-                </li>
-                <li id="name27">
-                    <a href="/detail/이소명/index.html">이소명</a>
-                </li>
-                <li id="name28">
-                    <a href="/detail/이소진/index.html">이소진</a>
-                </li>
-                <li id="name29">
-                    <a href="/detail/이여경/index.html">이여경</a>
-                </li>
-                <li id="name30">
-                    <a href="/detail/이연경/index.html">이연경</a>
-                </li>
-                <li id="name31">
-                    <a href="/detail/이인규/index.html">이인규</a>
-                </li>
-                <li id="name32">
-                    <a href="/detail/이정민/index.html">이정민</a>
-                </li>
-                <li id="name33">
-                    <a href="/detail/이주영/index.html">이주영</a>
-                </li>
-                <li id="name34">
-                    <a href="/detail/이찬휘/index.html">이찬휘</a>
-                </li>
-                <li id="name35">
+                <li id="4">
                     <a href="/detail/이태림/index.html">이태림</a>
                 </li>
-                <li id="name36">
+                <li id="5">
+                    <a href="/detail/권혜린/index.html">권혜린</a>
+                </li>
+                <li id="6">
+                    <a href="/detail/라연수/index.html">라연수</a>
+                </li>
+                <li id="7">
+                    <a href="/detail/유지원/index.html">유지원</a>
+                </li>
+                <li id="8">
                     <a href="/detail/임동주/index.html">임동주</a>
                 </li>
-                <li id="name37">
+                <li id="9">
+                    <a href="/detail/김나현/index.html">김나현</a>
+                </li>
+                <li id="10">
+                    <a href="/detail/류은하/index.html">류은하</a>
+                </li>
+                <li id="11">
+                    <a href="/detail/윤혜원/index.html">윤혜원</a>
+                </li>
+                <li id="12">
                     <a href="/detail/임주희/index.html">임주희</a>
                 </li>
-                <li id="name38">
+                <li id="13">
+                    <a href="/detail/김도현/index.html">김도현</a>
+                </li>
+                <li id="14">
+                    <a href="/detail/류현준/index.html">류현준</a>
+                </li>
+                <li id="15">
+                    <a href="/detail/이소명/index.html">이소명</a>
+                </li>
+                <li id="16">
                     <a href="/detail/임희진/index.html">임희진</a>
                 </li>
-                <li id="name39">
+                <li id="17">
+                    <a href="/detail/김성열/index.html">김성열</a>
+                </li>
+                <li id="18">
+                    <a href="/detail/문희서/index.html">문희서</a>
+                </li>
+                <li id="19">
+                    <a href="/detail/이소진/index.html">이소진</a>
+                </li>
+                <li id="20">
                     <a href="/detail/장립신/index.html">장립신</a>
                 </li>
-                <li id="name40">
+                <li id="21">
+                    <a href="/detail/김연리/index.html">김연리</a>
+                </li>
+                <li id="22">
+                    <a href="/detail/박미나/index.html">박미나</a>
+                </li>
+                <li id="23">
+                    <a href="/detail/이여경/index.html">이여경</a>
+                </li>
+                <li id="24">
                     <a href="/detail/장서경/index.html">장서경</a>
                 </li>
-                <li id="name41">
+                <li id="25">
+                    <a href="/detail/김지은/index.html">김지은</a>
+                </li>
+                <li id="26">
+                    <a href="/detail/박은하/index.html">박은하</a>
+                </li>
+                <li id="27">
+                    <a href="/detail/이연경/index.html">이연경</a>
+                </li>
+                <li id="28">
                     <a href="/detail/장지원/index.html">장지원</a>
                 </li>
-                <li id="name42">
+                <li id="29">
+                    <a href="/detail/김채림/index.html">김채림</a>
+                </li>
+                <li id="30">
+                    <a href="/detail/박재영/index.html">박재영</a>
+                </li>
+                <li id="31">
+                    <a href="/detail/이인규/index.html">이인규</a>
+                </li>
+                <li id="32">
                     <a href="/detail/정다경/index.html">정다경</a>
                 </li>
-                <li id="name43">
+                <li id="33">
+                    <a href="/detail/김태휴/index.html">김태휴</a>
+                </li>
+                <li id="34">
+                    <a href="/detail/백가은/index.html">백가은</a>
+                </li>
+                <li id="35">
+                    <a href="/detail/이정민/index.html">이정민</a>
+                </li>
+                <li id="36">
                     <a href="/detail/정희정/index.html">정희정</a>
+                </li>
+                <li id="37">
+                    <a href="/detail/김홍순/index.html">김홍순</a>
+                </li>
+                <li id="38">
+                    <a href="/detail/신다위/index.html">신다위</a>
+                </li>
+                <li id="39">
+                    <a href="/detail/이주영/index.html">이주영</a>
+                </li>
+                <li id="40">
+                    <a href="/detail/표서영/index.html">표서영</a>
+                </li>
+                <li id="41">
+                    <a href="/detail/남승완/index.html">남승완</a>
+                </li>
+                <li id="42">
+                    <a href="/detail/안용찬/index.html">안용찬</a>
+                </li>
+                <li id="43">
+                    <a href="/detail/이찬휘/index.html">이찬휘</a>
+                </li>
+            </ul>
+            </div>
+
+
+            <div class="nameBox" id="mobile_name">
+                <h2>DESIGNERS</h2>
+                <ul class="nameBtnWrap">
+                <li id="1" name="고재현">
+                   고재현
+                </li>
+                <li id="2" name="노연수">
+                    노연수
+                </li>
+                <li id="3" name="양시연">
+                    양시연
+                </li>
+                <li id="4" name="이태림">
+                    이태림
+                </li>
+                <li id="5" name="권혜린">
+                    권혜린
+                </li>
+                <li id="6" name="라연수" >
+                    라연수
+                </li>
+                <li id="7" name="유지원"> 
+                    유지원
+                </li>
+                <li id="8" name="임동주"> 
+                    임동주
+                </li>
+                <li id="9" name="김나현">
+                    김나현
+                </li>
+                <li id="10" name="류은하">
+                    류은하
+                </li>
+                <li id="11" name="윤혜원">
+                    윤혜원
+                </li>
+                <li id="12" name="임주희">
+                    임주희
+                </li>
+                <li id="13" name="김도현">
+                    김도현
+                </li>
+                <li id="14" name="류현준">
+                    류현준
+                </li>
+                <li id="15" name="이소명">
+                    이소명
+                </li>
+                <li id="16" name="임희진">
+                    임희진
+                </li>
+                <li id="17" name="김성열">
+                    김성열
+                </li>
+                <li id="18" name="문희서">
+                    문희서
+                </li>
+                <li id="19" name="이소진">
+                    이소진
+                </li>
+                <li id="20" name="장립신">
+                    장립신
+                </li>
+                <li id="21" name="김연리">
+                    김연리
+                </li>
+                <li id="22" name="박미나">
+                    박미나
+                </li>
+                <li id="23" name="이여경">
+                    이여경
+                </li>
+                <li id="24" name="장서경">
+                    장서경
+                </li>
+                <li id="25" name="김지은">
+                    김지은
+                </li>
+                <li id="26" name="박은하">
+                    박은하
+                </li>
+                <li id="27" name="이연경">
+                    이연경
+                </li>
+                <li id="28" name="장지원">
+                    장지원
+                </li>
+                <li id="29" name="김채림">
+                    김채림
+                </li>
+                <li id="30" name="박재영">
+                    박재영
+                </li>
+                <li id="31" name="이인규">
+                    이인규
+                </li>
+                <li id="32" name="정다경">
+                    정다경
+                </li>
+                <li id="33" name="김태휴">
+                    김태휴
+                </li>
+                <li id="34" name="백가은">
+                    백가은
+                </li>
+                <li id="35" name="이정민">
+                    이정민
+                </li>
+                <li id="36" name="정희정">
+                    정희정
+                </li>
+                <li id="37" name="김홍순">
+                    김홍순
+                </li>
+                <li id="38" name="신다위">
+                    신다위
+                </li>
+                <li id="39" name="이주영">
+                    이주영
+                </li>
+                <li id="40" name="표서영">
+                    표서영
+                </li>
+                <li id="41" name="남승완">
+                    남승완
+                </li>
+                <li id="42" name="안용찬">
+                    안용찬
+                </li>
+                <li id="43" name="이찬휘">
+                    이찬휘
                 </li>
             </ul>
             </div>
@@ -285,4 +390,27 @@
             </div>
         </div>
     </div>
+
+    <script>
+
+        var hide = document.getElementById('hide');
+        var see_work = document.getElementById('see_work_text');
+        document.querySelectorAll('.nameBtnWrap li')
+    
+        .forEach( e => e.addEventListener("mouseover", function() {
+            var designer_img = document.getElementById("designer_img");
+            designer_img.src = "/img/profile/"+this.id+"_profile.png";
+            hide.style.display = "block";
+            see_work.href = "/detail/"+this.attributes["name"].value+"/index.html";
+            console.log(this.attributes["name"].value);
+        }));
+    
+        document.querySelectorAll('.nameBtnWrap li')
+        .forEach( e => e.addEventListener("mouseleave", function() {
+            // hide.style.display = "none";
+            e.style.textDecoration = "";
+        }))
+    </script>
+    
+
 </body>
