@@ -58,6 +58,9 @@ body{
     color: #EE5046;
     text-decoration: line-through !important;
 }
+.select{
+    text-decoration: line-through !important;
+}
 .footer{
     width: 100%;
     position: absolute;

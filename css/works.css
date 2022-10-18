@@ -1,0 +1,205 @@
+body{
+    background-color: #EFEFEF;
+}
+.worksWrap{
+    width: 100%;
+    height: 100%;
+}
+.containerWrap2{
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+.worksList{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.worksImgBox{
+    width: 20%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.worksImgBox a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 30px;
+    font-family: 'Pretendard-Bold';
+    color: transparent;
+}
+.worksImgBox a:hover{
+    background-color: #EE5046;
+    color: #DFFA3E;
+}
+#works1{
+    background-image: url(../img/works/1_works.jpg);
+}
+#works2{
+    background-image: url(../img/works/2_works.jpg);
+}
+#works3{
+    background-image: url(../img/works/3_works.jpg);
+}
+#works4{
+    background-image: url(../img/works/4_works.jpg);
+}
+#works5{
+    background-image: url(../img/works/5_works.jpg);
+}
+#works6{
+    background-image: url(../img/works/6_works.jpg);
+}
+#works7{
+    background-image: url(../img/works/7_works.jpg);
+}
+#works8{
+    background-image: url(../img/works/8_works.jpg);
+}
+#works9{
+    background-image: url(../img/works/9_works.jpg);
+}
+#works10{
+    background-image: url(../img/works/10_works.jpg);
+}
+#works11{
+    background-image: url(../img/works/11_works.jpg);
+}
+#works12{
+    background-image: url(../img/works/12_works.jpg);
+}
+#works13{
+    background-image: url(../img/works/13_works.jpg);
+}
+#works14{
+    background-image: url(../img/works/14_works.jpg);
+}
+#works15{
+    background-image: url(../img/works/15_works.jpg);
+}
+#works16{
+    background-image: url(../img/works/16_works.jpg);
+}
+#works17{
+    background-image: url(../img/works/17_works.jpg);
+}
+#works18{
+    background-image: url(../img/works/18_works.jpg);
+}
+#works19{
+    background-image: url(../img/works/19_works.jpg);
+}
+#works20{
+    background-image: url(../img/works/20_works.jpg);
+}
+#works21{
+    background-image: url(../img/works/21_works.jpg);
+}
+#works22{
+    background-image: url(../img/works/22_works.jpg);
+}
+#works23{
+    background-image: url(../img/works/23_works.jpg);
+}
+#works24{
+    background-image: url(../img/works/24_works.jpg);
+}
+#works25{
+    background-image: url(../img/works/25_works.jpg);
+}
+#works26{
+    background-image: url(../img/works/26_works.jpg);
+}
+#works27{
+    background-image: url(../img/works/27_works.jpg);
+}
+#works28{
+    background-image: url(../img/works/28_works.jpg);
+}
+#works29{
+    background-image: url(../img/works/29_works.jpg);
+}
+#works30{
+    background-image: url(../img/works/30_works.jpg);
+}
+#works31{
+    background-image: url(../img/works/31_works.jpg);
+}
+#works32{
+    background-image: url(../img/works/32_works.jpg);
+}
+#works33{
+    background-image: url(../img/works/33_works.jpg);
+}
+#works34{
+    background-image: url(../img/works/34_works.jpg);
+}
+#works35{
+    background-image: url(../img/works/35_works.jpg);
+}
+#works36{
+    background-image: url(../img/works/36_works.jpg);
+}
+#works37{
+    background-image: url(../img/works/37_works.jpg);
+}
+#works38{
+    background-image: url(../img/works/38_works.jpg);
+}
+#works39{
+    background-image: url(../img/works/39_works.jpg);
+}
+#works40{
+    background-image: url(../img/works/40_works.jpg);
+}
+#works41{
+    background-image: url(../img/works/41_works.jpg);
+}
+#works42{
+    background-image: url(../img/works/42_works.jpg);
+}
+#works43{
+    background-image: url(../img/works/43_works.jpg);
+}
+
+@media (max-width: 1400px) {
+    .worksImgBox{
+        width: 33%;
+        height: 400px;
+    }
+    .containerWrap2{
+        margin-top: 80px;
+    }
+}
+@media (max-width: 768px) {
+    .worksImgBox{
+        width: 33%;
+        height: 250px;
+    }
+    .containerWrap2{
+        margin-top: 80px;
+    }
+    .worksImgBox a{
+        font-size: 20px;
+    }
+}
+@media (max-width: 568px) {
+    .worksImgBox{
+        width: 50%;
+        height: 200px;
+    }
+    .containerWrap2{
+        margin-top: 100px;
+    }
+}
+
