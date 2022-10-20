@@ -19,7 +19,8 @@ body{
     /* height: 100vh; */
 }
 video {  
-    width: 100%; }
+    width: 100%; 
+}
 .jb-text { 
     position: absolute; 
     top: 50%; 
