@@ -56,10 +56,10 @@ body{
 }
 .menu-list li a:hover{
     color: #EE5046;
-    text-decoration: line-through !important;
+    text-decoration: underline !important;
 }
 .select{
-    text-decoration: line-through !important;
+    text-decoration: underline !important;
 }
 .footer{
     width: 100%;

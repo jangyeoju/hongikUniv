@@ -8,7 +8,7 @@ body{
 .containerWrap2{
     width: 100%;
     margin-top: 100px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 .worksList{
     width: 100%;
@@ -171,14 +171,32 @@ body{
 #works43{
     background-image: url(../img/works/43_works.jpg);
 }
+.emptyBox{
+    background-color: #EE5046;
+    width: 40%;
+    height: 350px;
+    font-size: 24px;
+    list-style: 36px;
+    font-family: 'Pretendard-Bold';
+    text-align: center;
+    text-transform: uppercase;
+    color: #DFFA3E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media (max-width: 1400px) {
     .worksImgBox{
-        width: 33%;
+        width: 33.3%;
         height: 400px;
     }
     .containerWrap2{
         margin-top: 80px;
+    }
+    .emptyBox{
+        width: 66.6%;
+        height: 400px;
     }
 }
 @media (max-width: 768px) {
@@ -190,7 +208,7 @@ body{
         margin-top: 80px;
     }
     .worksImgBox a{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 @media (max-width: 568px) {
@@ -200,6 +218,12 @@ body{
     }
     .containerWrap2{
         margin-top: 100px;
+    }
+    .emptyBox{
+        width:50%;
+        height: 200px;
+        font-size: 14px;
+        line-height: 20px;
     }
 }
 
