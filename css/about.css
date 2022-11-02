@@ -200,4 +200,7 @@ body{
 	.textImgWrap h2 br{
 		display: block;
 	}
+	.simply-scroll .simply-scroll-list li{
+		width: 400px !important;
+	}
 }
